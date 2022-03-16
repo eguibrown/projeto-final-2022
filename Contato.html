@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    
+</head>
+<body background="img/image6.jpg" >
+    
+    <head  class="wrapper">
+    <h1 class="logo-inicial">RESIDENT EVIL FANATICOS </h1>
+    <hr>
+    <h2 class="texto-1">O melhor lugar para se saber tudo sobre a franquia</h2>
+    <hr>
+
+
+</head>
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif;}
+        .content{display: flex; justify-content: center;}
+        .contato{width: 100%;max-width:  500px;}
+        .form{display:flex; flex-direction: column}
+        .field{padding: 10px; margin-bottom: 15px; border: 1px solid #ddd;border-radius:5px;font-family: Arial, Helvetica, sans-serif;font-size: 16px;}
+        textarea{height: 150px;}
+
+
+
+
+    </style>
+    <section class="content">
+
+
+        <div class="contato">
+            <br>
+            <h3>Entre em contato conosco e divida a sua opnião</h3>
+            <form class="form" method="POST" action="./email.php" >
+                <input class="field" name="name" placeholder="Nome">
+                <input class="field" name="email" placeholder="E-mail">
+                <textarea class="filed" name="message" placeholder="Digite sua mensagem aqui"></textarea>
+                <input type="submit" value="Enviar">
+
+            </form>
+
+    
+
+        </div>
+
+
+    </section>
+
+
+</form>
+</body>
+</html>
